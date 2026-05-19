@@ -32,6 +32,7 @@ public interface BookingMapper {
 			           else 'NOT YET PAID'
 			       end as paymentStatus,
 			       pkg.package_name as packageName,
+			       pkg.image_name as imageName,
 			       b.travel_date as travelDate,
 			       b.option_id as optionId,
 			       po.option_name as optionName,
@@ -60,6 +61,7 @@ public interface BookingMapper {
 			           else 'NOT YET PAID'
 			       end as paymentStatus,
 			       pkg.package_name as packageName,
+			       pkg.image_name as imageName,
 			       b.travel_date as travelDate,
 			       b.option_id as optionId,
 			       po.option_name as optionName,
@@ -87,6 +89,7 @@ public interface BookingMapper {
 			           else 'NOT YET PAID'
 			       end as paymentStatus,
 			       pkg.package_name as packageName,
+			       pkg.image_name as imageName,
 			       b.travel_date as travelDate,
 			       b.option_id as optionId,
 			       po.option_name as optionName,
@@ -138,6 +141,7 @@ public interface BookingMapper {
 			           else 'NOT YET PAID'
 			       end as paymentStatus,
 			       pkg.package_name as packageName,
+			       pkg.image_name as imageName,
 			       b.travel_date as travelDate,
 			       b.option_id as optionId,
 			       po.option_name as optionName,

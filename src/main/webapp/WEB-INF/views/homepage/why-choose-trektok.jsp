@@ -1,70 +1,82 @@
-<div class="container py-5 mt-3">
-    <div class="text-center mb-5">
-        <h2 class="fw-bold">Why Choose TrekTok</h2>
-        <p class="text-muted mb-0" style="max-width: 620px; margin: 0 auto;">
-            TrekTok helps travelers search destinations, book packages easily, and enjoy a smooth travel planning experience.
-        </p>
-    </div>
+<section class="why-section">
+    <div class="container">
+        <div class="why-header text-center">
+            <span class="why-badge">Why Choose Us</span>
 
-    <div class="row g-4">
-    <div class="col-md-6 col-lg-3">
-        <div class="why-card text-center h-100">
-            <div class="why-icon bg-transparent">
-                <img src="${pageContext.request.contextPath}/resources/images/packages/magnifying.jpg"
-                     alt="Easy Search"
-                     class="img-fluid rounded-circle"
-                     style="width: 72px; height: 72px; object-fit: cover;">
-            </div>
-            <h3 class="h2 fw-bold mb-3">Easy Search</h3>
-            <p class="text-muted mb-0">
-                Quickly search destinations and tour packages based on your travel interests.
+            <h2>Why Choose TrekTok..</h2>
+
+            <p>
+                TrekTok helps travelers search destinations, book packages easily,
+                and enjoy a smooth travel planning experience.
             </p>
         </div>
-    </div>
 
-    <div class="col-md-6 col-lg-3">
-        <div class="why-card text-center h-100">
-            <div class="why-icon bg-transparent">
-                <img src="${pageContext.request.contextPath}/resources/images/packages/handshake.jpg"
-                     alt="Flexible Packages"
-                     class="img-fluid rounded-circle"
-                     style="width: 72px; height: 72px; object-fit: cover;">
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-md-6 col-lg-3">
+                <div class="why-card why-blue">
+                    <div class="why-icon">
+                        <img src="${pageContext.request.contextPath}/resources/images/packages/magnifying.jpg"
+                             alt="Easy Search">
+                    </div>
+
+                    <h3>Easy Search</h3>
+                    <div class="why-line"></div>
+
+                    <p>
+                        Quickly search destinations and tour packages based on your travel interests.
+                    </p>
+                </div>
             </div>
-            <h3 class="h2 fw-bold mb-3">Flexible Packages</h3>
-            <p class="text-muted mb-0">
-                Choose from available package options that match your preferred trip style.
-            </p>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="why-card why-green">
+                    <div class="why-icon">
+                        <img src="${pageContext.request.contextPath}/resources/images/packages/handshake.jpg"
+                             alt="Flexible Packages">
+                    </div>
+
+                    <h3>Flexible Packages</h3>
+                    <div class="why-line"></div>
+
+                    <p>
+                        Choose from available package options that match your preferred trip style.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="why-card why-lime">
+                    <div class="why-icon">
+                        <img src="${pageContext.request.contextPath}/resources/images/packages/secure.jpg"
+                             alt="Secure Booking">
+                    </div>
+
+                    <h3>Secure Booking</h3>
+                    <div class="why-line"></div>
+
+                    <p>
+                        Book and pay through a simple process designed for convenience and clarity.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="why-card why-orange">
+                    <div class="why-icon">
+                        <img src="${pageContext.request.contextPath}/resources/images/packages/thumbsup.jpg"
+                             alt="Trusted Feedback">
+                    </div>
+
+                    <h3>Trusted Feedback</h3>
+                    <div class="why-line"></div>
+
+                    <p>
+                        Read traveler reviews and share your own experience after your trip.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
-
-    <div class="col-md-6 col-lg-3">
-        <div class="why-card text-center h-100">
-            <div class="why-icon bg-transparent">
-                <img src="${pageContext.request.contextPath}/resources/images/packages/secure.jpg"
-                     alt="Secure Booking"
-                     class="img-fluid rounded-circle"
-                     style="width: 72px; height: 72px; object-fit: cover;">
-            </div>
-            <h3 class="h2 fw-bold mb-3">Secure Booking</h3>
-            <p class="text-muted mb-0">
-                Book and pay through a simple process designed for convenience and clarity.
-            </p>
-        </div>
-    </div>
-
-    <div class="col-md-6 col-lg-3">
-        <div class="why-card text-center h-100">
-            <div class="why-icon bg-transparent">
-                <img src="${pageContext.request.contextPath}/resources/images/packages/thumbsup.jpg"
-                     alt="Trusted Feedback"
-                     class="img-fluid rounded-circle"
-                     style="width: 72px; height: 72px; object-fit: cover;">
-            </div>
-            <h3 class="h2 fw-bold mb-3">Trusted Feedback</h3>
-            <p class="text-muted mb-0">
-                Read traveler reviews and share your own experience after your trip.
-            </p>
-        </div>
-    </div>
-</div>
-</div>
+</section>

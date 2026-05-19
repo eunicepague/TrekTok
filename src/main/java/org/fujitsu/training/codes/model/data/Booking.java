@@ -12,6 +12,7 @@ public class Booking {
 	private String status;
 	private String paymentStatus;
 	private String packageName;
+	private String imageName;
 	private LocalDate travelDate;
 	private Integer travelerCount;
 	private Integer optionId;
@@ -21,8 +22,8 @@ public class Booking {
 	public Booking() {}
 
 	public Booking(Integer bookingId, Integer userId, Integer packageId, LocalDateTime bookingDate, String comments,
-			String status, String paymentStatus, String packageName, LocalDate travelDate, Integer travelerCount,
-			Integer optionId, String optionName, Double optionPrice) {
+			String status, String paymentStatus, String packageName, String imageName, LocalDate travelDate,
+			Integer travelerCount, Integer optionId, String optionName, Double optionPrice) {
 		super();
 		this.bookingId = bookingId;
 		this.userId = userId;
@@ -32,6 +33,7 @@ public class Booking {
 		this.status = status;
 		this.paymentStatus = paymentStatus;
 		this.packageName = packageName;
+		this.imageName = imageName;
 		this.travelDate = travelDate;
 		this.travelerCount = travelerCount;
 		this.optionId = optionId;
@@ -101,6 +103,14 @@ public class Booking {
 
 	public void setPackageName(String packageName) {
 		this.packageName = packageName;
+	}
+
+	public String getImageName() {
+		return imageName;
+	}
+
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
 	}
 
 	public LocalDate getTravelDate() {

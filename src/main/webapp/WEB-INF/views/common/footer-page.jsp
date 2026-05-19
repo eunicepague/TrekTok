@@ -1,56 +1,86 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<footer class="bg-white border-top mt-5">
-    <div class="container py-4">
-        <div class="row gy-4">
-            <div class="col-md-4">
-                <h5 class="fw-bold mb-3">TrekTok</h5>
-                <p class="text-muted small mb-3">
-                    Discover destinations, explore travel packages, and plan your next trip with ease.
+<footer class="trektok-footer">
+
+    <div class="footer-panel">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+                <div class="footer-logo-row">
+                    <h3>Trek<span>Tok</span></h3>
+                </div>
+
+                <p>
+                    Discover destinations, explore travel packages,
+                    and plan your next trip with ease.
                 </p>
 
-                <div class="d-flex gap-3">
-                    <a href="#" class="text-dark text-decoration-none">Facebook</a>
-                    <a href="#" class="text-dark text-decoration-none">Instagram</a>
-                    <a href="#" class="text-dark text-decoration-none">Email</a>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">◎</a>
+                    <a href="#" aria-label="Email">✉</a>
                 </div>
             </div>
 
-            <div class="col-6 col-md-2">
-                <h6 class="fw-bold mb-3">Company</h6>
-                <ul class="list-unstyled small">
-                    <li class="mb-2"><a href="${pageContext.request.contextPath}/about" class="text-muted text-decoration-none">About Us</a></li>
-                    <li class="mb-2"><a href="${pageContext.request.contextPath}/packages" class="text-muted text-decoration-none">Packages</a></li>
-                    <li class="mb-2"><a href="${pageContext.request.contextPath}/contact" class="text-muted text-decoration-none">Contact</a></li>
+            <div class="footer-column">
+                <h5>Company</h5>
+                <ul>
+                    <li><a href="${pageContext.request.contextPath}/about">About Us <span>›</span></a></li>
+                    <li><a href="${pageContext.request.contextPath}/packages">Packages <span>›</span></a></li>
+                    <li><a href="${pageContext.request.contextPath}/contact">Contact <span>›</span></a></li>
                 </ul>
             </div>
 
-            <div class="col-6 col-md-2">
-                <h6 class="fw-bold mb-3">Support</h6>
-                <ul class="list-unstyled small">
-                    <li class="mb-2"><a href="${pageContext.request.contextPath}/login" class="text-muted text-decoration-none">Login</a></li>
-                    <li class="mb-2"><a href="${pageContext.request.contextPath}/register" class="text-muted text-decoration-none">Register</a></li>
-                    <li class="mb-2"><a href="${pageContext.request.contextPath}/myfeedbacks" class="text-muted text-decoration-none">Feedback</a></li>
+            <div class="footer-column">
+                <h5>Support</h5>
+                <ul>
+                    <li><a href="${pageContext.request.contextPath}/login">Login <span>›</span></a></li>
+                    <li><a href="${pageContext.request.contextPath}/register">Register <span>›</span></a></li>
+                    <li><a href="${pageContext.request.contextPath}/myfeedbacks">Feedback <span>›</span></a></li>
                 </ul>
             </div>
 
-            <div class="col-md-4">
-                <h6 class="fw-bold mb-3">Contact Us</h6>
-                <p class="text-muted small mb-2">0917 123 4567</p>
-                <p class="text-muted small mb-2">support@trektok.com</p>
-                <p class="text-muted small mb-0">Philippines</p>
+            <div class="footer-contact">
+                <h5>Contact Us</h5>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">☎</div>
+                    <div>
+                        <strong>0917 123 4567</strong>
+                        <p>Mon - Fri, 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">✉</div>
+                    <div>
+                        <strong>support@trektok.com</strong>
+                        <p>We’ll get back to you ASAP</p>
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">⌖</div>
+                    <div>
+                        <strong>Philippines</strong>
+                        <p>Travel made simple</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 <span>TrekTok</span>. All rights reserved.</p>
+
+            <div class="footer-policy-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Site Map</a>
             </div>
         </div>
 
-        <hr class="my-4">
-
-        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small text-muted">
-            <p class="mb-2 mb-md-0">© 2026 TrekTok. All rights reserved.</p>
-            <div class="d-flex gap-3">
-                <a href="#" class="text-muted text-decoration-none">Privacy Policy</a>
-                <a href="#" class="text-muted text-decoration-none">Terms of Use</a>
-                <a href="#" class="text-muted text-decoration-none">Site Map</a>
-            </div>
-        </div>
     </div>
+
 </footer>

@@ -1,120 +1,212 @@
-<div class="container py-5">
-    <div class="mb-4">
-        <h2 class="fw-bold">Last Minute Deals in Unique Places</h2>
-        <p class="text-muted mb-0" style="max-width: 520px;">
-            Plan, book, and embark on your dream adventure with our expert guidance and tailored experiences.
-        </p>
-    </div>
+<section class="deals-section">
+    <div class="container">
 
-    <div class="swiper dealsSwiper">
-        <div class="swiper-wrapper">
-
-            <!-- Card 1 -->
-            <div class="swiper-slide">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
-                    <div class="position-relative">
-                        <img src="${pageContext.request.contextPath}/resources/images/packages/siquijor.jpg"
-                             class="card-img-top"
-                             style="height: 220px; object-fit: cover;"
-                             alt="Siquijor Escape">
-                        <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">
-                            20% Off
-                        </span>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Siquijor Escape</h5>
-                        <p class="text-muted mb-2">Siquijor, Philippines</p>
-                        <p class="card-text">A peaceful island getaway with beaches, waterfalls, and laid-back charm.</p>
-                        <p class="mb-2"><strong>From PHP 4,200</strong></p>
-                        <p class="text-muted small mb-3">Per traveler</p>
-                        <a href="${pageContext.request.contextPath}/book?packageId=7"
-                           class="btn btn-primary rounded-pill px-4">
-                            View Deal
-                        </a>
-                    </div>
-                </div>
+        <div class="deals-header">
+            <div>
+                <span class="deals-badge">Limited Time Only</span>
+                <h2>Last Minute Deals in Unique Places</h2>
+                <p>
+                    Book now and escape sooner. Unbeatable last-minute deals to stunning
+                    destinations only for a short time.
+                </p>
             </div>
 
-            <!-- Card 2 -->
-            <div class="swiper-slide">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
-                    <div class="position-relative">
-                        <img src="${pageContext.request.contextPath}/resources/images/packages/camiguin.jpg"
-                             class="card-img-top"
-                             style="height: 220px; object-fit: cover;"
-                             alt="Camiguin Island Retreat">
-                        <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">
-                            15% Off
-                        </span>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Camiguin Island Retreat</h5>
-                        <p class="text-muted mb-2">Camiguin, Philippines</p>
-                        <p class="card-text">Enjoy hot springs, white island sandbars, and stunning volcanic scenery.</p>
-                        <p class="mb-2"><strong>From PHP 5,300</strong></p>
-                        <p class="text-muted small mb-3">Per traveler</p>
-                        <a href="${pageContext.request.contextPath}/book?packageId=8"
-                           class="btn btn-primary rounded-pill px-4">
-                            View Deal
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="swiper-slide">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
-                    <div class="position-relative">
-                        <img src="${pageContext.request.contextPath}/resources/images/packages/batanes.jpg"
-                             class="card-img-top"
-                             style="height: 220px; object-fit: cover;"
-                             alt="Batanes Scenic Tour">
-                        <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">
-                            Limited Offer
-                        </span>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Batanes Scenic Tour</h5>
-                        <p class="text-muted mb-2">Batanes, Philippines</p>
-                        <p class="card-text">Experience rolling hills, dramatic coastlines, and peaceful countryside views.</p>
-                        <p class="mb-2"><strong>From PHP 6,900</strong></p>
-                        <p class="text-muted small mb-3">Per traveler</p>
-                        <a href="${pageContext.request.contextPath}/book?packageId=6"
-                           class="btn btn-primary rounded-pill px-4">
-                            View Deal
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="swiper-slide">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
-                    <div class="position-relative">
-                        <img src="${pageContext.request.contextPath}/resources/images/packages/romblon.jpg"
-                             class="card-img-top"
-                             style="height: 220px; object-fit: cover;"
-                             alt="Romblon Island Adventure">
-                        <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">
-                            New
-                        </span>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Romblon Island Adventure</h5>
-                        <p class="text-muted mb-2">Romblon, Philippines</p>
-                        <p class="card-text">Crystal-clear waters, marble heritage, and hidden island gems await.</p>
-                        <p class="mb-2"><strong>From PHP 4,900</strong></p>
-                        <p class="text-muted small mb-3">Per traveler</p>
-                        <a href="${pageContext.request.contextPath}/book?packageId=12"
-                           class="btn btn-primary rounded-pill px-4">
-                            View Deal
-                        </a>
-                    </div>
-                </div>
-            </div>
-
+            <a href="${pageContext.request.contextPath}/packages" class="deals-view-link">
+                View all deals <span></span>
+            </a>
         </div>
 
-        <div class="swiper-pagination mt-3"></div>
+        <div class="swiper dealsSwiper">
+            <div class="swiper-wrapper">
+
+                <!-- Card 1 -->
+                <div class="swiper-slide">
+                    <div class="deal-card">
+                        <div class="deal-image">
+                            <img src="${pageContext.request.contextPath}/resources/images/packages/siquijor.jpg"
+                                 alt="Siquijor Escape">
+
+                            <span class="deal-discount deal-blue">20% OFF</span>
+
+                        </div>
+
+                        <div class="deal-body">
+                            <div class="deal-title-row">
+                                <span class="deal-location-icon">
+								    <img src="${pageContext.request.contextPath}/resources/images/packages/pin.png"
+								         alt="Location">
+								</span>
+                                <div>
+                                    <h3>Siquijor Escape</h3>
+                                    <p class="deal-location">Siquijor, Philippines</p>
+                                </div>
+                            </div>
+
+                            <div class="deal-desc-row">
+                                <p>
+                                    Mystical island vibes, waterfalls, and crystal-clear beaches await.
+                                </p>
+                            </div>
+
+                            <div class="deal-footer">
+                                <div class="deal-price-wrap">
+								    <div class="deal-price-line">
+								        <span>From</span>
+								        <strong>PHP 4,200</strong>
+								    </div>
+								</div>
+
+                                <a href="${pageContext.request.contextPath}/book?packageId=7"
+                                   class="deal-btn">
+                                    View Deal
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="swiper-slide">
+                    <div class="deal-card">
+                        <div class="deal-image">
+                            <img src="${pageContext.request.contextPath}/resources/images/packages/camiguin.jpg"
+                                 alt="Camiguin Island Retreat">
+
+                            <span class="deal-discount deal-green">15% OFF</span>
+
+                        </div>
+
+                        <div class="deal-body">
+                            <div class="deal-title-row">
+                                <span class="deal-location-icon">
+								    <img src="${pageContext.request.contextPath}/resources/images/packages/pin.png"
+								         alt="Location">
+								</span>
+                                <div>
+                                    <h3>Camiguin Island Retreat</h3>
+                                    <p class="deal-location">Camiguin, Philippines</p>
+                                </div>
+                            </div>
+
+                            <div class="deal-desc-row">
+                                <p>
+                                    Volcanic landscapes, hot springs, and island charm in one perfect getaway.
+                                </p>
+                            </div>
+
+                            <div class="deal-footer">
+                                <div class="deal-price-wrap">
+								    <div class="deal-price-line">
+								        <span>From</span>
+								        <strong>PHP 5,300</strong>
+								    </div>
+								</div>
+
+                                <a href="${pageContext.request.contextPath}/book?packageId=8"
+                                   class="deal-btn">
+                                    View Deal
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="swiper-slide">
+                    <div class="deal-card">
+                        <div class="deal-image">
+                            <img src="${pageContext.request.contextPath}/resources/images/packages/batanes.jpg"
+                                 alt="Batanes Scenic Tour">
+
+                            <span class="deal-discount deal-orange">Limited Offer</span>
+
+                        </div>
+
+                        <div class="deal-body">
+                            <div class="deal-title-row">
+                                <span class="deal-location-icon">
+								    <img src="${pageContext.request.contextPath}/resources/images/packages/pin.png"
+								         alt="Location">
+								</span>
+                                <div>
+                                    <h3>Batanes Scenic Tour</h3>
+                                    <p class="deal-location">Batanes, Philippines</p>
+                                </div>
+                            </div>
+
+                            <div class="deal-desc-row">
+                                <p>
+                                    Breathtaking vistas, rolling hills, and the serenity of the North.
+                                </p>
+                            </div>
+
+                            <div class="deal-footer">
+                                <div class="deal-price-wrap">
+								    <div class="deal-price-line">
+								        <span>From</span>
+								        <strong>PHP 6,900</strong>
+								    </div>
+								</div>
+
+                                <a href="${pageContext.request.contextPath}/book?packageId=6"
+                                   class="deal-btn">
+                                    View Deal
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="swiper-slide">
+                    <div class="deal-card">
+                        <div class="deal-image">
+                            <img src="${pageContext.request.contextPath}/resources/images/packages/romblon.jpg"
+                                 alt="Romblon Island Adventure">
+
+                            <span class="deal-discount deal-blue">New</span>
+
+                        </div>
+
+                        <div class="deal-body">
+                            <div class="deal-title-row">
+                                <span class="deal-location-icon">
+								    <img src="${pageContext.request.contextPath}/resources/images/packages/pin.png"
+								         alt="Location">
+								</span>
+                                <div>
+                                    <h3>Romblon Island Adventure</h3>
+                                    <p class="deal-location">Romblon, Philippines</p>
+                                </div>
+                            </div>
+
+                            <div class="deal-desc-row">
+                                <p>
+                                    Crystal-clear waters, marble heritage, and hidden island gems await.
+                                </p>
+                            </div>
+
+                            <div class="deal-footer">
+                                <div class="deal-price-wrap">
+								    <div class="deal-price-line">
+								        <span>From</span>
+								        <strong>PHP 4,900</strong>
+								    </div>
+								</div>
+
+                                <a href="${pageContext.request.contextPath}/book?packageId=12"
+                                   class="deal-btn">
+                                    View Deal
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination deals-pagination"></div>
+        </div>
+
     </div>
-</div>
+</section>

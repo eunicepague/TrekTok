@@ -81,6 +81,16 @@ body {
 
 
 
+.hero-bg {
+    min-height: 100vh;
+   
+}
+
+
+
+
+
+
 
 .summer-grid {
     display: grid;
@@ -796,7 +806,42 @@ body {
 }
 
 
+
+/*HERO PAGE*/
+
+
+#hero-page-p {
+color:white;
+}
+
 /* HOME HERO SEARCH */
+.hero-stats-row {
+    max-width: 760px;
+}
+
+
+.hero-stat-item h5 {
+    font-size: 1.45rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.hero-stat-item small {
+    display: block;
+    margin-top: 3px;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 0.82rem;
+}
+
+.hero-stat-divider {
+    width: 1px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.22);
+    flex-shrink: 0;
+}
+
+
+
 
 .hero-search-section {
     padding-top: 40px;
@@ -842,9 +887,10 @@ body {
     align-items: center;
     background: #ffffff;
     border: 1px solid #d9dee5;
-    border-radius: 20px;
-    overflow: hidden;
-    min-height: 66px;
+    min-height: 56px;
+    border-radius: 18px;
+    max-width: 720px;
+     overflow: hidden;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.03);
 }
 
@@ -941,14 +987,15 @@ body {
 
 /* TRANSPARENT NAVBAR */
 
+
 .navbar-transparent {
     background: transparent !important;
     box-shadow: none !important;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 1030;
+    width: 100%;
 }
 
 .navbar-transparent .navbar-brand,
@@ -959,6 +1006,7 @@ body {
 .navbar-transparent .nav-link:hover,
 .navbar-transparent .nav-link:focus {
     color: rgba(255, 255, 255, 0.85) !important;
+    font-weight: bold;
 }
 
 .navbar-transparent .navbar-toggler {
@@ -969,12 +1017,13 @@ body {
     box-shadow: none;
 }
 
+
 .navbar-transparent .dropdown-menu {
     border-radius: 16px;
 }
 
 .hero-search-section {
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 @media (max-width: 991px) {

@@ -1,0 +1,91 @@
+/*===============*/
+/* NAVBAR */
+/*===============*/
+
+.trektok-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+}
+
+.trektok-navbar-brand {
+    color: #ffffff !important;
+    font-size: 1.9rem;
+    font-weight: 850;
+    letter-spacing: -0.03em;
+}
+
+.trektok-navbar-brand span {
+    color: #0d6efd;
+}
+
+.trektok-navbar .nav-link {
+    color: rgba(255, 255, 255, 0.88) !important;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.trektok-navbar .nav-link:hover,
+.trektok-navbar .nav-link:focus {
+    color: #ffffff !important;
+}
+
+.navbar-login-btn {
+    padding: 9px 24px;
+    border-radius: 999px;
+    background: #0d6efd;
+    color: #ffffff;
+    font-size: 0.92rem;
+    font-weight: 700;
+    border: none;
+    transition: 0.25s ease;
+}
+
+.navbar-login-btn:hover {
+    background: #0b5ed7;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.navbar-dropdown {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.trektok-navbar .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+.trektok-navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.trektok-navbar .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width: 991px) {
+    .trektok-navbar {
+        background: rgba(2, 11, 29, 0.92);
+        backdrop-filter: blur(10px);
+    }
+
+    .trektok-navbar .navbar-collapse {
+        padding-top: 18px;
+        padding-bottom: 10px;
+    }
+
+    .trektok-navbar .navbar-nav {
+        gap: 6px;
+        margin-bottom: 18px;
+    }
+
+    .navbar-login-btn {
+        width: 100%;
+    }
+}

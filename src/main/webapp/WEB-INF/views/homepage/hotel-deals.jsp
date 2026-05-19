@@ -1,8 +1,15 @@
 <div class="container py-5">
-    <div class="mb-4">
-        <h2 class="fw-bold">Featured Hotel Stays in the Philippines</h2>
-        <p class="text-muted mb-0" style="max-width: 520px;">
-            Discover relaxing hotel stays in top destinations and enjoy comfortable accommodations for your next getaway.
+    <div class="hotel-header-simple">
+        <span class="hotel-header-badge">Handpicked for You</span>
+
+        <h2>
+            Featured Hotel Stays <br>
+            in the <span>Philippines</span>
+        </h2>
+
+        <p>
+            Discover relaxing hotel stays in top destinations and enjoy
+            comfortable accommodations for your next getaway.
         </p>
     </div>
 
@@ -21,15 +28,31 @@
                             Beachfront Stay
                         </span>
                     </div>
+
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Henann Boracay Beach Stay</h5>
                         <p class="text-muted mb-2">Henann Crystal Sands, Station 1</p>
-                        <p class="card-text">A polished beachfront hotel stay perfect for travelers who want comfort, convenience, and easy access to White Beach.</p>
-                        <p class="mb-2"><strong>From PHP 9,800</strong></p>
-                        <p class="text-muted small mb-3">Couple package rate</p>
+                        <p class="card-text">
+                            A polished beachfront hotel stay perfect for travelers who want comfort, convenience, and easy access to White Beach.
+                        </p>
+
+                        <div class="hotel-price-row">
+                            <div class="hotel-price-left">
+                                <span class="hotel-price-label">From</span>
+                                <h4 class="hotel-price-value">PHP 9,800</h4>
+                            </div>
+
+                            <div class="hotel-package-rate">
+                                <span>Couple package rate</span>
+                            </div>
+                        </div>
+
                         <a href="${pageContext.request.contextPath}/book?packageId=13"
-                           class="btn btn-primary rounded-pill px-4">
-                            View Deal
+                           class="hotel-card-btn">
+                            <span>View Deal</span>
+                            <img src="${pageContext.request.contextPath}/resources/images/packages/arrow-right.png"
+					         alt="Arrow"
+					         class="hotel-btn-arrow">
                         </a>
                     </div>
                 </div>
@@ -47,15 +70,31 @@
                             City Hotel
                         </span>
                     </div>
+
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Cebu City Comfort Stay</h5>
                         <p class="text-muted mb-2">Seda Ayala Center Cebu, Cebu City</p>
-                        <p class="card-text">A practical and comfortable city hotel stay with easy access to shopping, dining, and business districts.</p>
-                        <p class="mb-2"><strong>From PHP 5,600</strong></p>
-                        <p class="text-muted small mb-3">Couple package rate</p>
+                        <p class="card-text">
+                            A practical and comfortable city hotel stay with easy access to shopping, dining, and business districts.
+                        </p>
+
+                        <div class="hotel-price-row">
+                            <div class="hotel-price-left">
+                                <span class="hotel-price-label">From</span>
+                                <h4 class="hotel-price-value">PHP 5,600</h4>
+                            </div>
+
+                            <div class="hotel-package-rate">
+                                <span>Couple package rate</span>
+                            </div>
+                        </div>
+
                         <a href="${pageContext.request.contextPath}/book?packageId=14"
-                           class="btn btn-primary rounded-pill px-4">
-                            View Deal
+                           class="hotel-card-btn">
+                            <span>View Deal</span>
+                            <img src="${pageContext.request.contextPath}/resources/images/packages/arrow-right.png"
+					         alt="Arrow"
+					         class="hotel-btn-arrow">
                         </a>
                     </div>
                 </div>
@@ -73,15 +112,31 @@
                             Boutique Hotel
                         </span>
                     </div>
+
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Coron Boutique Escape</h5>
                         <p class="text-muted mb-2">The Funny Lion Coron, Palawan</p>
-                        <p class="card-text">A boutique-style Coron hotel package suited for guests who want comfort after island tours and outdoor adventures.</p>
-                        <p class="mb-2"><strong>From PHP 8,900</strong></p>
-                        <p class="text-muted small mb-3">Family package rate</p>
+                        <p class="card-text">
+                            A boutique-style Coron hotel package suited for guests who want comfort after island tours and outdoor adventures.
+                        </p>
+
+                        <div class="hotel-price-row">
+                            <div class="hotel-price-left">
+                                <span class="hotel-price-label">From</span>
+                                <h4 class="hotel-price-value">PHP 8,900</h4>
+                            </div>
+
+                            <div class="hotel-package-rate">
+                                <span>Family package rate</span>
+                            </div>
+                        </div>
+
                         <a href="${pageContext.request.contextPath}/book?packageId=15"
-                           class="btn btn-primary rounded-pill px-4">
-                            View Deal
+                           class="hotel-card-btn">
+                            <span>View Deal</span>
+                            <img src="${pageContext.request.contextPath}/resources/images/packages/arrow-right.png"
+					         alt="Arrow"
+					         class="hotel-btn-arrow">
                         </a>
                     </div>
                 </div>
@@ -99,15 +154,31 @@
                             Cool Weather Escape
                         </span>
                     </div>
+
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Baguio Highland Hotel Retreat</h5>
                         <p class="text-muted mb-2">The Manor at Camp John Hay, Baguio</p>
-                        <p class="card-text">A cozy mountain hotel stay with pine-tree surroundings, cool air, and a more peaceful Baguio experience.</p>
-                        <p class="mb-2"><strong>From PHP 6,200</strong></p>
-                        <p class="text-muted small mb-3">Couple package rate</p>
+                        <p class="card-text">
+                            A cozy mountain hotel stay with pine-tree surroundings, cool air, and a more peaceful Baguio experience.
+                        </p>
+
+                        <div class="hotel-price-row">
+                            <div class="hotel-price-left">
+                                <span class="hotel-price-label">From</span>
+                                <h4 class="hotel-price-value">PHP 6,200</h4>
+                            </div>
+
+                            <div class="hotel-package-rate">
+                                <span>Couple package rate</span>
+                            </div>
+                        </div>
+
                         <a href="${pageContext.request.contextPath}/book?packageId=16"
-                           class="btn btn-primary rounded-pill px-4">
-                            View Deal
+                           class="hotel-card-btn">
+                            <span>View Deal</span>
+                            <img src="${pageContext.request.contextPath}/resources/images/packages/arrow-right.png"
+					         alt="Arrow"
+					         class="hotel-btn-arrow">
                         </a>
                     </div>
                 </div>

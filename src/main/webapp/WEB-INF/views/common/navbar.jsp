@@ -14,9 +14,12 @@
     request.setAttribute("displayName", displayName);
 %>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
+<nav class="navbar navbar-expand-lg trektok-navbar py-3">
     <div class="container">
-        <a class="navbar-brand fw-bold fs-3" href="${pageContext.request.contextPath}/home">TrekTok</a>
+
+        <a class="navbar-brand trektok-navbar-brand" href="${pageContext.request.contextPath}/home">
+            Trek<span>Tok</span>
+        </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#mainNavbar" aria-controls="mainNavbar"
@@ -45,11 +48,12 @@
                 <c:choose>
                     <c:when test="${not empty sessionScope.user}">
                         <div class="dropdown">
-                            <button class="btn btn-primary rounded-pill px-4 dropdown-toggle"
+                            <button class="btn navbar-login-btn dropdown-toggle"
                                 type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Hi, ${displayName}
                             </button>
-                            <ul class="dropdown-menu dropdown-menu-end shadow border-0 rounded-3">
+
+                            <ul class="dropdown-menu dropdown-menu-end navbar-dropdown shadow border-0">
                                 <li>
                                     <a class="dropdown-item py-2" href="${pageContext.request.contextPath}/mybookings">
                                         My Bookings
@@ -71,7 +75,7 @@
                     </c:when>
 
                     <c:otherwise>
-                        <a class="btn btn-primary rounded-pill px-4" href="${pageContext.request.contextPath}/login">
+                        <a class="btn navbar-login-btn" href="${pageContext.request.contextPath}/login">
                             Sign in
                         </a>
                     </c:otherwise>
