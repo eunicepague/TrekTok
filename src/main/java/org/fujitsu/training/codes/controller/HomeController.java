@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HomeController {
@@ -26,5 +27,11 @@ public class HomeController {
 	public String showContactPage() {
 		LOG.info("Contact page opened.");
 	    return "contact";
+	}
+	
+	@GetMapping("/healthz")
+	@ResponseBody
+	public String healthCheck() {
+	    return "OK";
 	}
 }
