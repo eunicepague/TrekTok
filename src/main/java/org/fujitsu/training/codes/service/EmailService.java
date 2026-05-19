@@ -16,8 +16,8 @@ import jakarta.mail.internet.MimeMessage;
 public class EmailService {
 
 	public boolean sendEmail(String toEmail, String subject, String body) {
-		final String fromEmail = "cutepague@gmail.com";
-		final String appPassword = "qeke jdfw ujsm culp";
+		final String fromEmail = System.getenv("EMAIL_USERNAME");
+	    final String appPassword = System.getenv("EMAIL_PASSWORD");
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");

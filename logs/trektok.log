@@ -30091,3 +30091,472 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 2026-05-19 16:17:22 [INFO] HomeController - Home page opened.
 2026-05-19 16:17:24 [INFO] FeedbackController - My feedbacks page opened by userId=10
 2026-05-19 16:17:57 [INFO] HomeController - Home page opened.
+2026-05-19 17:05:53 [INFO] DispatcherServlet - Initializing Servlet 'dispatcher'
+2026-05-19 17:05:54 [INFO] DispatcherServlet - Completed initialization in 1928 ms
+2026-05-19 17:06:01 [INFO] HomeController - Home page opened.
+2026-05-19 17:06:04 [INFO] PackageController - Package list opened. userId=null
+2026-05-19 17:06:04 [INFO] PackageService - Selecting all packages.
+2026-05-19 17:06:09 [INFO] PackageService - Select all packages successful. recordCount=21
+2026-05-19 17:06:11 [INFO] WeatherService - Weather loaded successfully for latitude=14.1172301, longitude=120.9617934
+2026-05-19 17:06:11 [INFO] NearbyPlaceService - Selecting nearby places by packageId=17
+2026-05-19 17:06:11 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=17, recordCount=0
+2026-05-19 17:06:11 [INFO] WeatherService - Weather loaded successfully for latitude=9.0992387, longitude=123.6050614
+2026-05-19 17:06:11 [INFO] NearbyPlaceService - Selecting nearby places by packageId=7
+2026-05-19 17:06:12 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=7, recordCount=0
+2026-05-19 17:06:12 [INFO] WeatherService - Weather loaded successfully for latitude=20.4659661, longitude=121.9647408
+2026-05-19 17:06:12 [INFO] NearbyPlaceService - Selecting nearby places by packageId=6
+2026-05-19 17:06:12 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=6, recordCount=0
+2026-05-19 17:06:13 [INFO] WeatherService - Weather loaded successfully for latitude=12.5305601, longitude=122.2880536
+2026-05-19 17:06:13 [INFO] NearbyPlaceService - Selecting nearby places by packageId=12
+2026-05-19 17:06:13 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=12, recordCount=0
+2026-05-19 17:06:13 [INFO] WeatherService - Weather loaded successfully for latitude=18.9499028, longitude=121.9241418
+2026-05-19 17:06:13 [INFO] NearbyPlaceService - Selecting nearby places by packageId=8
+2026-05-19 17:06:14 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=8, recordCount=0
+2026-05-19 17:06:14 [INFO] WeatherService - Weather loaded successfully for latitude=16.4007943, longitude=120.6176332
+2026-05-19 17:06:14 [INFO] NearbyPlaceService - Selecting nearby places by packageId=16
+2026-05-19 17:06:14 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=16, recordCount=0
+2026-05-19 17:06:15 [INFO] WeatherService - Weather loaded successfully for latitude=10.3178279, longitude=123.906951
+2026-05-19 17:06:15 [INFO] NearbyPlaceService - Selecting nearby places by packageId=14
+2026-05-19 17:06:15 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=14, recordCount=0
+2026-05-19 17:06:15 [INFO] WeatherService - Weather loaded successfully for latitude=11.9989345, longitude=120.2022371
+2026-05-19 17:06:15 [INFO] NearbyPlaceService - Selecting nearby places by packageId=2
+2026-05-19 17:06:16 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=2, recordCount=0
+2026-05-19 17:06:16 [INFO] WeatherService - Weather loaded successfully for latitude=13.8599258, longitude=120.623431
+2026-05-19 17:06:16 [INFO] NearbyPlaceService - Selecting nearby places by packageId=21
+2026-05-19 17:06:17 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=21, recordCount=0
+2026-05-19 17:06:17 [INFO] WeatherService - Weather loaded successfully for latitude=9.7831249, longitude=126.1567993
+2026-05-19 17:06:17 [INFO] NearbyPlaceService - Selecting nearby places by packageId=4
+2026-05-19 17:06:17 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=4, recordCount=0
+2026-05-19 17:06:17 [INFO] WeatherService - Weather loaded successfully for latitude=11.9694067, longitude=121.9200677
+2026-05-19 17:06:17 [INFO] NearbyPlaceService - Selecting nearby places by packageId=10
+2026-05-19 17:06:18 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=10, recordCount=0
+2026-05-19 17:06:18 [INFO] WeatherService - Weather loaded successfully for latitude=14.8622944, longitude=120.2371381
+2026-05-19 17:06:18 [INFO] NearbyPlaceService - Selecting nearby places by packageId=20
+2026-05-19 17:06:19 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=20, recordCount=0
+2026-05-19 17:06:19 [INFO] WeatherService - Weather loaded successfully for latitude=17.0816845, longitude=120.9057536
+2026-05-19 17:06:19 [INFO] NearbyPlaceService - Selecting nearby places by packageId=11
+2026-05-19 17:06:19 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=11, recordCount=0
+2026-05-19 17:06:19 [ERROR] WeatherService - Weather lookup skipped because latitude/longitude is missing.
+2026-05-19 17:06:19 [INFO] NearbyPlaceService - Selecting nearby places by packageId=19
+2026-05-19 17:06:20 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=19, recordCount=0
+2026-05-19 17:06:20 [INFO] WeatherService - Weather loaded successfully for latitude=14.0746824, longitude=120.6253682
+2026-05-19 17:06:20 [INFO] NearbyPlaceService - Selecting nearby places by packageId=5
+2026-05-19 17:06:20 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=5, recordCount=0
+2026-05-19 17:06:20 [ERROR] WeatherService - Weather lookup skipped because latitude/longitude is missing.
+2026-05-19 17:06:20 [INFO] NearbyPlaceService - Selecting nearby places by packageId=18
+2026-05-19 17:06:21 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=18, recordCount=0
+2026-05-19 17:06:21 [INFO] WeatherService - Weather loaded successfully for latitude=9.7628898, longitude=126.1272698
+2026-05-19 17:06:21 [INFO] NearbyPlaceService - Selecting nearby places by packageId=9
+2026-05-19 17:06:21 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=9, recordCount=0
+2026-05-19 17:06:22 [INFO] WeatherService - Weather loaded successfully for latitude=9.7906098, longitude=124.157862
+2026-05-19 17:06:22 [INFO] NearbyPlaceService - Selecting nearby places by packageId=3
+2026-05-19 17:06:22 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=3, recordCount=0
+2026-05-19 17:06:22 [INFO] WeatherService - Weather loaded successfully for latitude=12.0040435, longitude=120.1923888
+2026-05-19 17:06:22 [INFO] NearbyPlaceService - Selecting nearby places by packageId=15
+2026-05-19 17:06:23 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=15, recordCount=0
+2026-05-19 17:06:23 [INFO] WeatherService - Weather loaded successfully for latitude=17.5747, longitude=120.3869
+2026-05-19 17:06:23 [INFO] NearbyPlaceService - Selecting nearby places by packageId=1
+2026-05-19 17:06:24 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=1, recordCount=3
+2026-05-19 17:06:24 [INFO] WeatherService - Weather loaded successfully for latitude=11.9719244, longitude=121.9179447
+2026-05-19 17:06:24 [INFO] NearbyPlaceService - Selecting nearby places by packageId=13
+2026-05-19 17:06:24 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=13, recordCount=0
+2026-05-19 17:06:24 [INFO] PackageController - Packages loaded. userId=null, recordCount=21
+2026-05-19 17:07:25 [INFO] BookingController - Booking page opened. userId=null, packageId=17
+2026-05-19 17:07:25 [INFO] PackageService - Selecting package by packageId=17
+2026-05-19 17:07:25 [INFO] PackageService - Package found for packageId=17
+2026-05-19 17:07:25 [INFO] PackageOptionService - Selecting package options by packageId=17
+2026-05-19 17:07:26 [INFO] PackageOptionService - Select package options by packageId=17 successful. recordCount=1
+2026-05-19 17:07:26 [INFO] NearbyPlaceService - Selecting nearby places by packageId=17
+2026-05-19 17:07:26 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=17, recordCount=0
+2026-05-19 17:07:27 [INFO] WeatherService - Weather loaded successfully for latitude=14.1172301, longitude=120.9617934
+2026-05-19 17:07:34 [INFO] HomeController - Home page opened.
+2026-05-19 17:08:11 [INFO] DispatcherServlet - Initializing Servlet 'dispatcher'
+2026-05-19 17:08:13 [INFO] DispatcherServlet - Completed initialization in 2554 ms
+2026-05-19 17:08:19 [INFO] DispatcherServlet - Initializing Servlet 'dispatcher'
+2026-05-19 17:08:22 [INFO] DispatcherServlet - Completed initialization in 2478 ms
+2026-05-19 17:09:00 [INFO] HomeController - Home page opened.
+2026-05-19 17:09:06 [INFO] PackageController - Package list opened. userId=null
+2026-05-19 17:09:06 [INFO] PackageService - Selecting all packages.
+2026-05-19 17:09:11 [INFO] PackageService - Select all packages successful. recordCount=21
+2026-05-19 17:09:11 [ERROR] WeatherService - Weather lookup skipped because latitude/longitude is missing.
+2026-05-19 17:09:11 [INFO] NearbyPlaceService - Selecting nearby places by packageId=19
+2026-05-19 17:09:11 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=19, recordCount=0
+2026-05-19 17:09:12 [INFO] WeatherService - Weather loaded successfully for latitude=9.7628898, longitude=126.1272698
+2026-05-19 17:09:12 [INFO] NearbyPlaceService - Selecting nearby places by packageId=9
+2026-05-19 17:09:13 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=9, recordCount=0
+2026-05-19 17:09:13 [INFO] WeatherService - Weather loaded successfully for latitude=13.8599258, longitude=120.623431
+2026-05-19 17:09:13 [INFO] NearbyPlaceService - Selecting nearby places by packageId=21
+2026-05-19 17:09:13 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=21, recordCount=0
+2026-05-19 17:09:14 [INFO] WeatherService - Weather loaded successfully for latitude=20.4659661, longitude=121.9647408
+2026-05-19 17:09:14 [INFO] NearbyPlaceService - Selecting nearby places by packageId=6
+2026-05-19 17:09:14 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=6, recordCount=0
+2026-05-19 17:09:14 [INFO] WeatherService - Weather loaded successfully for latitude=12.5305601, longitude=122.2880536
+2026-05-19 17:09:14 [INFO] NearbyPlaceService - Selecting nearby places by packageId=12
+2026-05-19 17:09:15 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=12, recordCount=0
+2026-05-19 17:09:15 [INFO] WeatherService - Weather loaded successfully for latitude=18.9499028, longitude=121.9241418
+2026-05-19 17:09:15 [INFO] NearbyPlaceService - Selecting nearby places by packageId=8
+2026-05-19 17:09:15 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=8, recordCount=0
+2026-05-19 17:09:16 [INFO] WeatherService - Weather loaded successfully for latitude=11.9694067, longitude=121.9200677
+2026-05-19 17:09:16 [INFO] NearbyPlaceService - Selecting nearby places by packageId=10
+2026-05-19 17:09:16 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=10, recordCount=0
+2026-05-19 17:09:16 [INFO] WeatherService - Weather loaded successfully for latitude=9.0992387, longitude=123.6050614
+2026-05-19 17:09:16 [INFO] NearbyPlaceService - Selecting nearby places by packageId=7
+2026-05-19 17:09:17 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=7, recordCount=0
+2026-05-19 17:09:17 [INFO] WeatherService - Weather loaded successfully for latitude=9.7831249, longitude=126.1567993
+2026-05-19 17:09:17 [INFO] NearbyPlaceService - Selecting nearby places by packageId=4
+2026-05-19 17:09:17 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=4, recordCount=0
+2026-05-19 17:09:18 [INFO] WeatherService - Weather loaded successfully for latitude=12.0040435, longitude=120.1923888
+2026-05-19 17:09:18 [INFO] NearbyPlaceService - Selecting nearby places by packageId=15
+2026-05-19 17:09:18 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=15, recordCount=0
+2026-05-19 17:09:18 [INFO] WeatherService - Weather loaded successfully for latitude=9.7906098, longitude=124.157862
+2026-05-19 17:09:18 [INFO] NearbyPlaceService - Selecting nearby places by packageId=3
+2026-05-19 17:09:19 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=3, recordCount=0
+2026-05-19 17:09:19 [INFO] WeatherService - Weather loaded successfully for latitude=11.9719244, longitude=121.9179447
+2026-05-19 17:09:19 [INFO] NearbyPlaceService - Selecting nearby places by packageId=13
+2026-05-19 17:09:19 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=13, recordCount=0
+2026-05-19 17:09:20 [INFO] WeatherService - Weather loaded successfully for latitude=10.3178279, longitude=123.906951
+2026-05-19 17:09:20 [INFO] NearbyPlaceService - Selecting nearby places by packageId=14
+2026-05-19 17:09:20 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=14, recordCount=0
+2026-05-19 17:09:20 [INFO] WeatherService - Weather loaded successfully for latitude=17.0816845, longitude=120.9057536
+2026-05-19 17:09:20 [INFO] NearbyPlaceService - Selecting nearby places by packageId=11
+2026-05-19 17:09:21 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=11, recordCount=0
+2026-05-19 17:09:21 [ERROR] WeatherService - Weather lookup skipped because latitude/longitude is missing.
+2026-05-19 17:09:21 [INFO] NearbyPlaceService - Selecting nearby places by packageId=18
+2026-05-19 17:09:21 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=18, recordCount=0
+2026-05-19 17:09:21 [INFO] WeatherService - Weather loaded successfully for latitude=16.4007943, longitude=120.6176332
+2026-05-19 17:09:21 [INFO] NearbyPlaceService - Selecting nearby places by packageId=16
+2026-05-19 17:09:22 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=16, recordCount=0
+2026-05-19 17:09:22 [INFO] WeatherService - Weather loaded successfully for latitude=17.5747, longitude=120.3869
+2026-05-19 17:09:22 [INFO] NearbyPlaceService - Selecting nearby places by packageId=1
+2026-05-19 17:09:22 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=1, recordCount=3
+2026-05-19 17:09:23 [INFO] WeatherService - Weather loaded successfully for latitude=14.0746824, longitude=120.6253682
+2026-05-19 17:09:23 [INFO] NearbyPlaceService - Selecting nearby places by packageId=5
+2026-05-19 17:09:23 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=5, recordCount=0
+2026-05-19 17:09:23 [INFO] WeatherService - Weather loaded successfully for latitude=14.1172301, longitude=120.9617934
+2026-05-19 17:09:23 [INFO] NearbyPlaceService - Selecting nearby places by packageId=17
+2026-05-19 17:09:24 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=17, recordCount=0
+2026-05-19 17:09:24 [INFO] WeatherService - Weather loaded successfully for latitude=14.8622944, longitude=120.2371381
+2026-05-19 17:09:24 [INFO] NearbyPlaceService - Selecting nearby places by packageId=20
+2026-05-19 17:09:24 [INFO] PackageController - Package list opened. userId=null
+2026-05-19 17:09:24 [INFO] PackageService - Selecting all packages.
+2026-05-19 17:09:24 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=20, recordCount=0
+2026-05-19 17:09:24 [INFO] PackageController - Package list opened. userId=null
+2026-05-19 17:09:24 [INFO] PackageService - Selecting all packages.
+2026-05-19 17:09:25 [INFO] WeatherService - Weather loaded successfully for latitude=11.9989345, longitude=120.2022371
+2026-05-19 17:09:25 [INFO] NearbyPlaceService - Selecting nearby places by packageId=2
+2026-05-19 17:09:25 [INFO] PackageService - Select all packages successful. recordCount=21
+2026-05-19 17:09:25 [INFO] WeatherService - Weather loaded successfully for latitude=14.1172301, longitude=120.9617934
+2026-05-19 17:09:25 [INFO] NearbyPlaceService - Selecting nearby places by packageId=17
+2026-05-19 17:09:26 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=17, recordCount=0
+2026-05-19 17:09:26 [INFO] WeatherService - Weather loaded successfully for latitude=9.7906098, longitude=124.157862
+2026-05-19 17:09:26 [INFO] NearbyPlaceService - Selecting nearby places by packageId=3
+2026-05-19 17:09:26 [INFO] PackageService - Select all packages successful. recordCount=21
+2026-05-19 17:09:26 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=3, recordCount=0
+2026-05-19 17:09:26 [INFO] WeatherService - Weather loaded successfully for latitude=9.7831249, longitude=126.1567993
+2026-05-19 17:09:26 [INFO] NearbyPlaceService - Selecting nearby places by packageId=4
+2026-05-19 17:09:27 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=2, recordCount=0
+2026-05-19 17:09:27 [INFO] PackageController - Packages loaded. userId=null, recordCount=21
+2026-05-19 17:09:27 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=4, recordCount=0
+2026-05-19 17:09:27 [INFO] WeatherService - Weather loaded successfully for latitude=10.3178279, longitude=123.906951
+2026-05-19 17:09:27 [INFO] NearbyPlaceService - Selecting nearby places by packageId=14
+2026-05-19 17:09:27 [INFO] WeatherService - Weather loaded successfully for latitude=13.8599258, longitude=120.623431
+2026-05-19 17:09:27 [INFO] NearbyPlaceService - Selecting nearby places by packageId=21
+2026-05-19 17:09:28 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=14, recordCount=0
+2026-05-19 17:09:28 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=21, recordCount=0
+2026-05-19 17:09:28 [INFO] WeatherService - Weather loaded successfully for latitude=9.7628898, longitude=126.1272698
+2026-05-19 17:09:28 [INFO] NearbyPlaceService - Selecting nearby places by packageId=9
+2026-05-19 17:09:28 [INFO] WeatherService - Weather loaded successfully for latitude=9.7831249, longitude=126.1567993
+2026-05-19 17:09:28 [INFO] NearbyPlaceService - Selecting nearby places by packageId=4
+2026-05-19 17:09:28 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=9, recordCount=0
+2026-05-19 17:09:28 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=4, recordCount=0
+2026-05-19 17:09:28 [INFO] WeatherService - Weather loaded successfully for latitude=18.9499028, longitude=121.9241418
+2026-05-19 17:09:28 [INFO] NearbyPlaceService - Selecting nearby places by packageId=8
+2026-05-19 17:09:29 [INFO] WeatherService - Weather loaded successfully for latitude=17.5747, longitude=120.3869
+2026-05-19 17:09:29 [INFO] NearbyPlaceService - Selecting nearby places by packageId=1
+2026-05-19 17:09:29 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=8, recordCount=0
+2026-05-19 17:09:29 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=1, recordCount=3
+2026-05-19 17:09:29 [INFO] WeatherService - Weather loaded successfully for latitude=14.1172301, longitude=120.9617934
+2026-05-19 17:09:29 [INFO] NearbyPlaceService - Selecting nearby places by packageId=17
+2026-05-19 17:09:29 [INFO] WeatherService - Weather loaded successfully for latitude=20.4659661, longitude=121.9647408
+2026-05-19 17:09:29 [INFO] NearbyPlaceService - Selecting nearby places by packageId=6
+2026-05-19 17:09:30 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=17, recordCount=0
+2026-05-19 17:09:30 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=6, recordCount=0
+2026-05-19 17:09:30 [INFO] WeatherService - Weather loaded successfully for latitude=17.0816845, longitude=120.9057536
+2026-05-19 17:09:30 [INFO] NearbyPlaceService - Selecting nearby places by packageId=11
+2026-05-19 17:09:30 [INFO] WeatherService - Weather loaded successfully for latitude=18.9499028, longitude=121.9241418
+2026-05-19 17:09:30 [INFO] NearbyPlaceService - Selecting nearby places by packageId=8
+2026-05-19 17:09:30 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=11, recordCount=0
+2026-05-19 17:09:30 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=8, recordCount=0
+2026-05-19 17:09:30 [INFO] WeatherService - Weather loaded successfully for latitude=20.4659661, longitude=121.9647408
+2026-05-19 17:09:30 [INFO] NearbyPlaceService - Selecting nearby places by packageId=6
+2026-05-19 17:09:31 [INFO] WeatherService - Weather loaded successfully for latitude=17.0816845, longitude=120.9057536
+2026-05-19 17:09:31 [INFO] NearbyPlaceService - Selecting nearby places by packageId=11
+2026-05-19 17:09:31 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=6, recordCount=0
+2026-05-19 17:09:31 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=11, recordCount=0
+2026-05-19 17:09:31 [INFO] WeatherService - Weather loaded successfully for latitude=12.0040435, longitude=120.1923888
+2026-05-19 17:09:31 [INFO] NearbyPlaceService - Selecting nearby places by packageId=15
+2026-05-19 17:09:31 [INFO] WeatherService - Weather loaded successfully for latitude=11.9694067, longitude=121.9200677
+2026-05-19 17:09:31 [INFO] NearbyPlaceService - Selecting nearby places by packageId=10
+2026-05-19 17:09:31 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=15, recordCount=0
+2026-05-19 17:09:32 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=10, recordCount=0
+2026-05-19 17:09:32 [INFO] WeatherService - Weather loaded successfully for latitude=13.8599258, longitude=120.623431
+2026-05-19 17:09:32 [INFO] NearbyPlaceService - Selecting nearby places by packageId=21
+2026-05-19 17:09:32 [INFO] WeatherService - Weather loaded successfully for latitude=9.7628898, longitude=126.1272698
+2026-05-19 17:09:32 [INFO] NearbyPlaceService - Selecting nearby places by packageId=9
+2026-05-19 17:09:32 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=21, recordCount=0
+2026-05-19 17:09:32 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=9, recordCount=0
+2026-05-19 17:09:32 [INFO] WeatherService - Weather loaded successfully for latitude=17.5747, longitude=120.3869
+2026-05-19 17:09:32 [INFO] NearbyPlaceService - Selecting nearby places by packageId=1
+2026-05-19 17:09:33 [INFO] WeatherService - Weather loaded successfully for latitude=10.3178279, longitude=123.906951
+2026-05-19 17:09:33 [INFO] NearbyPlaceService - Selecting nearby places by packageId=14
+2026-05-19 17:09:33 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=1, recordCount=3
+2026-05-19 17:09:33 [ERROR] WeatherService - Weather lookup skipped because latitude/longitude is missing.
+2026-05-19 17:09:33 [INFO] NearbyPlaceService - Selecting nearby places by packageId=18
+2026-05-19 17:09:33 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=14, recordCount=0
+2026-05-19 17:09:33 [INFO] WeatherService - Weather loaded successfully for latitude=9.0992387, longitude=123.6050614
+2026-05-19 17:09:33 [INFO] NearbyPlaceService - Selecting nearby places by packageId=7
+2026-05-19 17:09:33 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=18, recordCount=0
+2026-05-19 17:09:33 [INFO] WeatherService - Weather loaded successfully for latitude=11.9989345, longitude=120.2022371
+2026-05-19 17:09:33 [INFO] NearbyPlaceService - Selecting nearby places by packageId=2
+2026-05-19 17:09:34 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=7, recordCount=0
+2026-05-19 17:09:34 [INFO] WeatherService - Weather loaded successfully for latitude=14.0746824, longitude=120.6253682
+2026-05-19 17:09:34 [INFO] NearbyPlaceService - Selecting nearby places by packageId=5
+2026-05-19 17:09:34 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=2, recordCount=0
+2026-05-19 17:09:34 [INFO] WeatherService - Weather loaded successfully for latitude=11.9719244, longitude=121.9179447
+2026-05-19 17:09:34 [INFO] NearbyPlaceService - Selecting nearby places by packageId=13
+2026-05-19 17:09:34 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=5, recordCount=0
+2026-05-19 17:09:35 [INFO] WeatherService - Weather loaded successfully for latitude=14.8622944, longitude=120.2371381
+2026-05-19 17:09:35 [INFO] NearbyPlaceService - Selecting nearby places by packageId=20
+2026-05-19 17:09:35 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=13, recordCount=0
+2026-05-19 17:09:35 [INFO] WeatherService - Weather loaded successfully for latitude=11.9694067, longitude=121.9200677
+2026-05-19 17:09:35 [INFO] NearbyPlaceService - Selecting nearby places by packageId=10
+2026-05-19 17:09:35 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=20, recordCount=0
+2026-05-19 17:09:35 [INFO] WeatherService - Weather loaded successfully for latitude=16.4007943, longitude=120.6176332
+2026-05-19 17:09:35 [INFO] NearbyPlaceService - Selecting nearby places by packageId=16
+2026-05-19 17:09:35 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=10, recordCount=0
+2026-05-19 17:09:35 [ERROR] WeatherService - Weather lookup skipped because latitude/longitude is missing.
+2026-05-19 17:09:35 [INFO] NearbyPlaceService - Selecting nearby places by packageId=19
+2026-05-19 17:09:36 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=16, recordCount=0
+2026-05-19 17:09:36 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=19, recordCount=0
+2026-05-19 17:09:36 [INFO] WeatherService - Weather loaded successfully for latitude=12.5305601, longitude=122.2880536
+2026-05-19 17:09:36 [INFO] NearbyPlaceService - Selecting nearby places by packageId=12
+2026-05-19 17:09:36 [INFO] WeatherService - Weather loaded successfully for latitude=12.5305601, longitude=122.2880536
+2026-05-19 17:09:36 [INFO] NearbyPlaceService - Selecting nearby places by packageId=12
+2026-05-19 17:09:36 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=12, recordCount=0
+2026-05-19 17:09:36 [ERROR] WeatherService - Weather lookup skipped because latitude/longitude is missing.
+2026-05-19 17:09:36 [INFO] NearbyPlaceService - Selecting nearby places by packageId=19
+2026-05-19 17:09:36 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=12, recordCount=0
+2026-05-19 17:09:37 [INFO] WeatherService - Weather loaded successfully for latitude=9.7906098, longitude=124.157862
+2026-05-19 17:09:37 [INFO] NearbyPlaceService - Selecting nearby places by packageId=3
+2026-05-19 17:09:37 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=19, recordCount=0
+2026-05-19 17:09:37 [INFO] WeatherService - Weather loaded successfully for latitude=11.9719244, longitude=121.9179447
+2026-05-19 17:09:37 [INFO] NearbyPlaceService - Selecting nearby places by packageId=13
+2026-05-19 17:09:37 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=3, recordCount=0
+2026-05-19 17:09:37 [INFO] WeatherService - Weather loaded successfully for latitude=9.0992387, longitude=123.6050614
+2026-05-19 17:09:37 [INFO] NearbyPlaceService - Selecting nearby places by packageId=7
+2026-05-19 17:09:37 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=13, recordCount=0
+2026-05-19 17:09:37 [ERROR] WeatherService - Weather lookup skipped because latitude/longitude is missing.
+2026-05-19 17:09:37 [INFO] NearbyPlaceService - Selecting nearby places by packageId=18
+2026-05-19 17:09:38 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=7, recordCount=0
+2026-05-19 17:09:38 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=18, recordCount=0
+2026-05-19 17:09:38 [INFO] WeatherService - Weather loaded successfully for latitude=16.4007943, longitude=120.6176332
+2026-05-19 17:09:38 [INFO] NearbyPlaceService - Selecting nearby places by packageId=16
+2026-05-19 17:09:38 [INFO] WeatherService - Weather loaded successfully for latitude=12.0040435, longitude=120.1923888
+2026-05-19 17:09:38 [INFO] NearbyPlaceService - Selecting nearby places by packageId=15
+2026-05-19 17:09:38 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=16, recordCount=0
+2026-05-19 17:09:38 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=15, recordCount=0
+2026-05-19 17:09:39 [INFO] WeatherService - Weather loaded successfully for latitude=14.0746824, longitude=120.6253682
+2026-05-19 17:09:39 [INFO] NearbyPlaceService - Selecting nearby places by packageId=5
+2026-05-19 17:09:39 [INFO] WeatherService - Weather loaded successfully for latitude=11.9989345, longitude=120.2022371
+2026-05-19 17:09:39 [INFO] NearbyPlaceService - Selecting nearby places by packageId=2
+2026-05-19 17:09:39 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=5, recordCount=0
+2026-05-19 17:09:39 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=2, recordCount=0
+2026-05-19 17:09:39 [INFO] PackageController - Packages loaded. userId=null, recordCount=21
+2026-05-19 17:09:39 [INFO] WeatherService - Weather loaded successfully for latitude=14.8622944, longitude=120.2371381
+2026-05-19 17:09:39 [INFO] NearbyPlaceService - Selecting nearby places by packageId=20
+2026-05-19 17:09:40 [INFO] NearbyPlaceService - Select nearby places by packageId successful. packageId=20, recordCount=0
+2026-05-19 17:09:40 [INFO] PackageController - Packages loaded. userId=null, recordCount=21
+2026-05-19 17:10:57 [INFO] DispatcherServlet - Initializing Servlet 'dispatcher'
+2026-05-19 17:10:58 [WARN] AnnotationConfigWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'createUserService' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createUserService' parameter 0: Error creating bean with name 'createSqlSessionFactory' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createSqlSessionFactory' parameter 0: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-05-19 17:10:58 [ERROR] DispatcherServlet - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'createUserService' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createUserService' parameter 0: Error creating bean with name 'createSqlSessionFactory' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createSqlSessionFactory' parameter 0: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:748)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:662)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:710)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:586)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:528)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at jakarta.servlet.GenericServlet.init(GenericServlet.java:145)
+	at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:124)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:819)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:789)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:693)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4177)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3228)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:228)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:4781)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1137)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1141)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1141)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1119)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:310)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'createUserService' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createUserService' parameter 0: Error creating bean with name 'createSqlSessionFactory' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createSqlSessionFactory' parameter 0: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 43 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'createSqlSessionFactory' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createSqlSessionFactory' parameter 0: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 56 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2297)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1725)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 70 more
+2026-05-19 17:11:21 [INFO] DispatcherServlet - Initializing Servlet 'dispatcher'
+2026-05-19 17:11:22 [WARN] AnnotationConfigWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'createUserService' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createUserService' parameter 0: Error creating bean with name 'createSqlSessionFactory' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createSqlSessionFactory' parameter 0: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-05-19 17:11:22 [ERROR] DispatcherServlet - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'createUserService' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createUserService' parameter 0: Error creating bean with name 'createSqlSessionFactory' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createSqlSessionFactory' parameter 0: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:748)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:662)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:710)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:586)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:528)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at jakarta.servlet.GenericServlet.init(GenericServlet.java:145)
+	at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:124)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:819)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:789)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:693)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4177)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3228)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:228)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:4781)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1137)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1141)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1141)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1119)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:310)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'createUserService' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createUserService' parameter 0: Error creating bean with name 'createSqlSessionFactory' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createSqlSessionFactory' parameter 0: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 43 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'createSqlSessionFactory' defined in class path resource [org/fujitsu/training/codes/config/JdbcConfig.class]: Unsatisfied dependency expressed through method 'createSqlSessionFactory' parameter 0: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 56 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2297)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1725)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 70 more
+2026-05-19 17:17:06 [INFO] DispatcherServlet - Initializing Servlet 'dispatcher'
+2026-05-19 17:17:09 [INFO] DispatcherServlet - Completed initialization in 2699 ms
+2026-05-19 17:19:50 [INFO] DispatcherServlet - Initializing Servlet 'dispatcher'
+2026-05-19 17:19:53 [INFO] DispatcherServlet - Completed initialization in 2705 ms
+2026-05-19 17:20:18 [INFO] DispatcherServlet - Initializing Servlet 'dispatcher'
+2026-05-19 17:20:20 [INFO] DispatcherServlet - Completed initialization in 1567 ms
+2026-05-19 17:21:08 [INFO] DispatcherServlet - Initializing Servlet 'dispatcher'
+2026-05-19 17:21:09 [INFO] DispatcherServlet - Completed initialization in 1359 ms

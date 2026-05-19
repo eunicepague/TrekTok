@@ -21,8 +21,8 @@ import org.springframework.context.annotation.Configuration;
 @MapperScan("org.fujitsu.training.codes.dao") //  MyBatis -> scan for mapper interfaces
 public class JdbcConfig {
 
-
-	@Bean 	// Creates the database connection source
+/*OLD CONFIG
+ * @Bean 	// Creates the database connection source
 	public DataSource createDataSource() {
 		BasicDataSource ds = new BasicDataSource();
 		ds.setDriverClassName("org.postgresql.Driver"); 	// PostgreSQL JDBC driver
@@ -32,7 +32,20 @@ public class JdbcConfig {
 
 		return ds;
 	}
+ * */
+	
+	@Bean 	
+	public DataSource createDataSource() {
+	    BasicDataSource ds = new BasicDataSource();
 
+	    ds.setDriverClassName("org.postgresql.Driver");
+	    ds.setUrl(System.getenv("DB_URL"));
+	    ds.setUsername(System.getenv("DB_USERNAME"));
+	    ds.setPassword(System.getenv("DB_PASSWORD"));
+
+	    return ds;
+	}
+	
 
 	@Bean
 	public SqlSessionFactory createSqlSessionFactory(DataSource ds) throws Exception {	// Creates -> MyBatis SqlSessionFactory using the DataSource
